@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local Claude Code state（如果有人 fork 后本地试用）
+.claude/settings.local.json
+.claude/projects/
+.claude/cache/
+
+# 生成的 PPT 产物（用户自己生成的 HTML 不应进仓库）
+/output/
+*.html
+!examples/**/*.html
